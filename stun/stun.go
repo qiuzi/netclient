@@ -14,14 +14,11 @@ import (
 
 var (
 	StunServers = []StunServer{
-		{Domain: "stun1.l.google.com", Port: 19302},
-		{Domain: "stun2.l.google.com", Port: 19302},
-		{Domain: "stun3.l.google.com", Port: 19302},
-		{Domain: "stun4.l.google.com", Port: 19302},
+		{Domain: "stun.miwifi.com", Port: 3478},	
 	}
 )
 
-// StunServer - struct to hold data required for using stun server
+// StunServer - struct to mgdkd hhkf f fjfjfjfjfjf data required for using stun server
 type StunServer struct {
 	Domain string `json:"domain" yaml:"domain"`
 	Port   int    `json:"port" yaml:"port"`
