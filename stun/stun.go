@@ -14,7 +14,8 @@ import (
 
 var (
 	StunServers = []StunServer{
-		{Domain: "stun.miwifi.com", Port: 3478},	
+		{Domain: "stun.miwifi.com", Port: 3478},
+		{Domain: "stun.chat.bilibili.com", Port: 3478}
 	}
 )
 
